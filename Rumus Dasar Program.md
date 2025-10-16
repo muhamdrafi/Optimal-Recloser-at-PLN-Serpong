@@ -92,6 +92,7 @@ Paper ini sangat relevan karena menggunakan dua metode utama yang sangat terkait
 - Paper ini akan memiliki dua jenis rumus utama yang relevan:
   - Rumus Keandalan Standar (SAIDI/SAIFI): Ini adalah rumus dasar yang di kenal, yang akan digunakan sebagai bagian dari fungsi tujuan yang ingin diminimalkan.
   - Fungsi Tujuan Berbobot (Objective Function): Ini adalah rumus yang sangat penting. Paper ini akan meminimalkan kombinasi dari SAIDI, SAIFI, dan biaya investasi.
+
 Rumus:
 
     <img width="833" height="132" alt="Screenshot 2025-10-14 113232" src="https://github.com/user-attachments/assets/259cf211-46e6-4a26-833d-4de10b38f69b" />
