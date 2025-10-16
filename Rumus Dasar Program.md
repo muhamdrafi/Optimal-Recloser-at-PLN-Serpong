@@ -83,7 +83,7 @@ Paper ini bertujuan untuk menemukan lokasi yang paling optimal untuk penempatan 
 1. Metode yang Digunakan
 Paper ini sangat relevan karena menggunakan dua metode utama yang sangat terkait secara konseptual dengan program:
 - AHP (Analytic Hierarchy Process): Ini adalah metode matematis untuk menentukan bobot (prioritas) dari berbagai kriteria. AHP digunakan untuk memutuskan kriteria mana yang paling penting untuk dioptimalkan (misalnya, SAIDI, SAIFI, atau biaya).
-  - Keterkaitan dengan Program: Konsep ini sama persis dengan penggunaan bobot (WEIGHT_PELANGGAN, WEIGHT_JARAK, dll.) untuk menghasilkan SAIDI_SCORE.
+  - Keterkaitan dengan Program: Konsep ini sama persis dengan penggunaan bobot (WEIGHT_PELANGGAN, WEIGHT_JARAK, WEIGHT_DAYA) untuk menghasilkan SAIDI_SCORE.
 
 - PSO (Particle Swarm Optimization): Ini adalah algoritma optimasi yang meniru perilaku kawanan burung. PSO digunakan untuk mencari solusi terbaik di antara jutaan kemungkinan lokasi perangkat. Tujuannya adalah untuk menemukan kombinasi lokasi yang menghasilkan nilai SAIDI terendah.
   - Keterkaitan dengan Program: PSO melakukan hal yang sama dengan yang dilakukan program yaitu, mencari lokasi terbaik. dan menggunakan metode heuristik berbasis aturan (persentil, hindari GI/GH, dll.)
