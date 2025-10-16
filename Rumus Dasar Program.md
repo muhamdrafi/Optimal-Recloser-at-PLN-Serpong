@@ -91,13 +91,15 @@ Paper ini sangat relevan karena menggunakan dua metode utama yang sangat terkait
 2. Rumus dan Keterkaitan
 - Paper ini akan memiliki dua jenis rumus utama yang relevan:
   - Rumus Keandalan Standar (SAIDI/SAIFI): Ini adalah rumus dasar yang di kenal, yang akan digunakan sebagai bagian dari fungsi tujuan yang ingin diminimalkan.
-  - Fungsi Tujuan Berbobot (Objective Function): Ini adalah rumus yang sangat penting. Paper ini akan meminimalkan kombinasi dari SAIDI, SAIFI, dan biaya investasi.Rumus:
+  - Fungsi Tujuan Berbobot (Objective Function): Ini adalah rumus yang sangat penting. Paper ini akan meminimalkan kombinasi dari SAIDI, SAIFI, dan biaya investasi.
+  
+  Rumus:
 
     <img width="833" height="132" alt="Screenshot 2025-10-14 113232" src="https://github.com/user-attachments/assets/259cf211-46e6-4a26-833d-4de10b38f69b" />
 
-Dimana:
+  Dimana:
 
-<img width="1282" height="81" alt="Screenshot 2025-10-14 113538" src="https://github.com/user-attachments/assets/3c6e9188-a4fc-4ab2-a721-dcb01d00f752" />
+    <img width="1282" height="81" alt="Screenshot 2025-10-14 113538" src="https://github.com/user-attachments/assets/3c6e9188-a4fc-4ab2-a721-dcb01d00f752" />
 
 Keterkaitan dengan Program: Fungsi ini adalah landasan teoretis untuk SAIDI_SCORE. Program dapat menjelaskan bahwa SAIDI_SCORE dari Program ini adalah representasi sederhana dari fungsi tujuan berbobot ini. Program menggunakan bobot untuk kriteria operasional untuk mencari keandalan setiap recloser.
 
