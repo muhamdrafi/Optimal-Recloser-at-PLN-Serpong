@@ -77,6 +77,7 @@ Program ini adalah model heuristik berbasis kriteria berbobot yang menggabungkan
 # "Optimal placement of switching and protection devices in radial distribution networks to enhance system reliability using the AHP-PSO method"
 
 Tujuan Utama Paper
+
 Paper ini bertujuan untuk menemukan lokasi yang paling optimal untuk penempatan perangkat proteksi (seperti recloser dan sectionalizer) di jaringan distribusi. Tujuannya adalah untuk meningkatkan keandalan sistem, yang diukur menggunakan indeks seperti SAIDI dan SAIFI.
 
 1. Metode yang Digunakan
