@@ -57,19 +57,19 @@ Program ini adalah model heuristik berbasis kriteria berbobot yang menggabungkan
 4. Logika Penentuan RC
    - Ambang Batas (Threshold)
   
-     <img width="922" height="72" alt="Screenshot 2025-10-14 105306" src="https://github.com/user-attachments/assets/80d58659-b3e0-450b-ad1f-0b7d70cb4fb9" />
+     <img width="842" height="89" alt="Screenshot 2025-10-18 135217" src="https://github.com/user-attachments/assets/7a3f42f3-fd24-4595-9a22-58a291689819" />
 
-     Menetapkan batas bawah, hanya memilih 25% lokasi paling kritis dengan potensi perbaikan tertinggi.
+     Menetapkan batas bawah, di setiap kelayakan gardu RC.
 
    - Penentuan Awal RC
   
-     <img width="990" height="112" alt="Screenshot 2025-10-14 105842" src="https://github.com/user-attachments/assets/6ca34fe6-3d85-4248-a991-1bdca33ba9d1" />
-  
+     <img width="983" height="192" alt="Screenshot 2025-10-18 135444" src="https://github.com/user-attachments/assets/315561fa-3677-41af-9acb-a4d87bc33c7d" />
+
      Menyaring Kandidat Berdasarkan Manfaat dan Kelayakan Teknis.
 
    - Aturan Anti-Berdekatan (Dalam Loop)
   
-     <img width="1027" height="212" alt="Screenshot 2025-10-14 110336" src="https://github.com/user-attachments/assets/5ad1c088-c418-4ec4-a0d8-901a61d4d2e9" />
+     <img width="1237" height="209" alt="Screenshot 2025-10-18 140018" src="https://github.com/user-attachments/assets/314a7ee5-92a5-4853-b867-9ff357f4085c" />
 
      Memastikan Recloser yang dipasang memiliki jarak yang cukup untuk koordinasi proteksi dan menghindari jarak recloser pada lokasi yang berdekatan.
 
