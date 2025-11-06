@@ -1,0 +1,15 @@
+Analisis Singkat Program
+Dari script Python, pola perhitungannya seperti ini:
+1. Input data gardu tiap penyulang dari Excel.
+2. Lakukan normalisasi terhadap tiga kriteria utama:
+- Jumlah pelanggan (PELANGGAN)
+- Panjang jarak (PANJAR)
+- Daya terpasang (DAYA_KVA)
+
+3. Hitung skor total berbobot (kombinasi linear dari ketiganya).
+4. Hitung SAIDI, simulasi beberapa kali (Rep0, Rep1, Rep2).
+5. Klasifikasikan hasilnya dengan batasan (threshold 75% dan 50%) jadi Yes, Maybe, No.
+6. Terapkan aturan “anti-berdempetan” untuk RC berurutan.
+7. Hitung system SAIDI before/after.
+
+Jadi secara konsep, program mengambil keputusan berdasarkan multi-kriteria yang ditimbang secara deterministik.
